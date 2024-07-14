@@ -3,8 +3,8 @@ import random
 from getuseragent import UserAgent
 
 ua = UserAgent("ios").Random()
-user = input("[+] TikTok UserName : ")
-link = input("[+] Video Link : ")
+user = "sajjad_salam1"
+link = "https://www.tiktok.com/@sajjad_salam1/video/7326252548459990278?is_from_webapp=1&sender_device=pc&web_id=7375893968805381650"
 res = requests.post(
     "https://api.likesjet.com/freeboost/3",
     json={
