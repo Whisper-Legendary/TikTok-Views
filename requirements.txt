@@ -1,0 +1,2 @@
+getuseragent==0.0.7
+Requests==2.32.3
